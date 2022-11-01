@@ -66,7 +66,6 @@
     padding: 30px;
     text-decoration-line: none;
   }
-  
   .caption {
     display:grid;
     position: relative;
@@ -138,5 +137,53 @@
       background-color: black;
       border: none;
     }
+    .PopSms{
+      display: grid;
+      z-index: 1;
+      position: relative;
+      padding: none;
+      justify-content: end;
+      grid-template-columns: -100px;
+      grid-template-rows: -300px;
+      background: transparent;
+      border: 10px solid #06cdf0;
+      color: #fff;
+      padding-right:20px;
+      padding-left: 1px;
+    }
+    .great{
+      display: flex;
+      grid-column: 1/2;
+      align-self: start;
+      justify-self: end;
+      padding-bottom: 4px;
+    }
+    .PopSms p{
+      grid-column: 1/3;
+      align-self: start;
+      justify-self: end;
+      background: rgb(4, 242, 32);
+      border: 1px solid #e08b8d;
+      border-radius: 4px;
+      line-height: 1.1;
+      padding: 1px;
+    }
+    .PopSms .great .mypic{
+      background: center  url(Images/popSms.jpg);
+      background-size: 100px 120px;
+      border: none;
+      height: 60px;
+      width: 60px;
+      padding: 10px;
+      border-radius: 35px;
+      float:left;
+      border: 1px solid #e08b8d;
+    }
+    .PopSms h4{
+      background: black;
+      float: right;
+      padding-left: 10px;
+    }
+
     
     
