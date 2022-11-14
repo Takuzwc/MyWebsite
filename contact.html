@@ -7,75 +7,84 @@
          <title>Taku_zwc</title>
          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
          <link rel="stylesheet" href="contact.css">
-         <script src="MyWeb.js"></script>
         </head>
         <body>
+            <script defer src="MyWeb.js"></script>
             <section class="main">
-                <header>
+                <nav>
                     <h2 class="logo">TAKU_ZWC</h2>
                     <ul>
                         <li><a href="#Home">Home</a></li>
                         <li><a href="#Portfolio">Portfolio</a></li>
                         <li><a href="#Contact">Contact</a></li>
-                        <li><button class="btn-nav"><a href="Getstarted">GETSTARTED</a></button></li>
+                        <li><a href="Getstarted" class="btn-nav">GET STARTED</a></li>
                     </ul>
                     <div class="burgery">
                       <div class="line1"></div>
                       <div class="line2"></div>
                       <div class="line3"></div>
                     </div>
-                </header>
+                </nav>
 
-                <div class="contactform">
-                    <div class="message">
-                        <div>
-                         <h2>Contact</h2> 
-                         <p>Hello There. I hope you have been <br>inspired by my piece of work<br> i would be glad to her from
-                            you with your <br>thoughts concerning my line of production.<br> Please dont hasitate to contact me.
-                            <br>Below are my contact details. <br>Thank you 
-                        </p>
-                        </div>
-                        <div>
-                            <h3>Address</h3>
-                            <p>34/65 Aleje Raclawickie, Lublin, Poland</p>
-                        </div>
-                        <div>
-                            <h3>Telegram</h3>
-                            <p>@taku_zwc</p>
-                        </div>
-                        <div>
-                            <h3>Email</h3>
-                            <p>taku69ngwe@gmail.com</p>
-                        </div>
-                    </div>
+                   <button data-modal-target="#modal">Get In Touch</button>
 
-                    <div class="form">
-                            <h2>Send A Message</h2>
-                        <div class="content">
-                            <div class="inputbox">
-                            <input  type="text" name="" required="required">
-                            <span>Full Name</span>
+                <div class="modal" id="modal">
+                   <div class="contactform">             
+                        <div class="message">
+                            <div>
+                             <h2>Contact</h2> 
+                             <p>Hello There. I hope you have been <br>inspired by my piece of work<br> i would be glad to her from
+                                you with your <br>thoughts concerning my line of production.<br> Please dont hasitate to contact me.
+                                <br>Below are my contact details. <br>Thank you 
+                            </p>
                             </div>
-
-                            <div class="inputbox">
-                            <input type="text" name="" required="required">
-                            <span>Email</span>
+                            <div>
+                                <h3>Address</h3>
+                                <p>34/65 Aleje Raclawickie, Lublin, Poland</p>
                             </div>
-
-                            <div class="inputbox">
-                            <input type="text" name="" required="required">
-                            <span>Type your Message...</span>
+                            <div>
+                                <h3>Telegram</h3>
+                                <p>@taku_zwc</p>
                             </div>
-
-                            <div class="inputbox">
-                                <input type="submit" name="" value="send">
+                            <div>
+                                <h3>Email</h3>
+                                <p>taku69ngwe@gmail.com</p>
                             </div>
-                        </div>    
-                    </div>
+                        </div>
+                        
+            
+                        <div class="form">
+                                <h2>Send A Message</h2>
+                            <div class="content">
+                                <div class="inputbox">
+                                <input  type="text" name="" required="required">
+                                <span>Full Name</span>
+                                </div>
+    
+                                <div class="inputbox">
+                                <input type="text" name="" required="required">
+                                <span>Email</span>
+                                </div>
+    
+                                <div class="inputbox">
+                                <input type="text" name="" required="required">
+                                <span>Type your Message...</span>
+                                </div>
+                                
+                                <div data-close-button class="inputbox">
+                                    <input type="submit" name="" value="send">
+                                </div> 
+                                 
+                            </div>  
+                        </div>
+                    </div>    
                 </div>
+              <img src="images/contactPage.jpg" alt="subpages" width="600" height="400">
+              <div id="overlay"></div>
+           </section>
 
-                <h1 data-text="TAKU_ZWC">TAKU_ZWC</h1>
-                <img src="images/subpages.jpg" alt="subpages" width="600" height="400">
-            </section>
+            
+                   
+                  
         </body>
 </html>
